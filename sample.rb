@@ -1,11 +1,3 @@
 puts "hello"
 
-puts "good"
-
-puts <<~TXT
-
-hello
-
-hello
-
-TXT
+puts 3 + 4
