@@ -1,14 +1,17 @@
-puts "--------------  "
-puts "hello World", "hello world"
-puts ""
-p "Hello World", 4
-puts ""
-puts <<~TXT
-hello world
-hello world
+name = "Satou"
+age = 33
+address = "Tokyo"
+tell = "888-2343-9183"
 
-hello world
-TXT
-puts "-----------"
-print "hello"
-print " world"
+puts <<~txt
+-----------------------------------
+[自己紹介]
+
+私の名前は#{name}です。
+年齢は#{age}です。
+今住んでいるところは#{address}です。
+電話番号は#{tell}です。
+
+よろしくお願い致し。
+-----------------------------------
+txt
